@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box; }
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between; }
+  body .mainBlock,
+  html .mainBlock {
+    width: 100%;
+    height: 100%;
+    background: #fff; }
+  body .task,
+  html .task {
+    position: absolute;
+    display: none; }
+
+/*# sourceMappingURL=styles.css.map */
